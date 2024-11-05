@@ -8,20 +8,20 @@ paginate: true
 ---
 
 ## **Sistema de Arquivos - EXT2**
-### Sistemas Operacionais - Engenharia de Software
+### `Sistemas Operacionais - Engenharia de Software`
 #### **Luiza Graminho, Stéfani Dias e Stéfani Arnold**
-##### 02/2024
+##### `02/2024`
 
 ---
 
 ### **Definição**
-- **ext2**: Sistema de arquivos de segunda extensão para sistemas Linux.
+- **ext2**: Sistema de arquivos de segunda extensão para sistemas `Linux`.
 - **Características**: Simplicidade e eficiência.
 
 ---
 
-### **Sistemas Operacionais e Versões**
-- **Usado em**: Distribuições Linux mais antigas, como Slackware, Debian e Red Hat.
+### `Sistemas Operacionais e Versões`
+- **Usado em**: Distribuições Linux mais antigas, como `Slackware, Debian e Red Hat`.
 - **Versões do Kernel**: Disponível a partir do Linux Kernel 2.0.
 
 ---
@@ -35,8 +35,8 @@ paginate: true
 
 ---
 
-### **Tipo de Alocação**
-- **Alocação**: Contígua, utilizando bitmap para rastrear blocos e inodes livres.
+### `Tipo de Alocação`
+- **Alocação**: Contígua, utilizando `bitmap` para rastrear blocos e inodes livres.
 
 ---
 
@@ -47,7 +47,7 @@ paginate: true
 
 ---
 
-### **Nome e Permissões de Arquivos**
+### `Nome e Permissões de Arquivos`
 - **Nome de Arquivo**: Até 255 caracteres.
 - **Permissões**: Modelo Unix – leitura, escrita e execução para usuário, grupo e outros.
 
@@ -60,9 +60,9 @@ paginate: true
 
 ---
 
-### **Vantagens**
+### `Vantagens`
 - Simples e eficiente.
-- Baixo consumo de CPU e memória.
+- Baixo consumo de `CPU` e memória.
 - Boa performance em discos menores.
 
 ---
@@ -73,7 +73,7 @@ paginate: true
 
 ---
 
-### **Melhores Usos**
+### `Melhores Usos`
 - **Ambientes Simples**: Prioriza simplicidade e baixa demanda de recursos.
 - **Dispositivos Embarcados**: Eficiente em sistemas com recursos limitados.
 - **Sistemas com Backups Regulares**: Minimiza risco de perda de dados.
@@ -87,7 +87,7 @@ paginate: true
 
 ---
 
-# **Perguntas?**
+# `Perguntas?`
 
 stefani.camargo@sou.unijui.edu.br
 luiza.graminho@sou.unijui.edu.br
