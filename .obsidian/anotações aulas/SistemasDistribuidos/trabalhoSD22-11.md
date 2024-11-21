@@ -82,3 +82,4 @@ c. dois prints da execução:
 
 ---
 
+Please install the sass command line tools from http://sass-lang.com/install if you want to use Sass Formatter extension.
