@@ -2,10 +2,11 @@
 marp: true
 theme: gaia
 class: 
-- invert
+- gaia
 - lead
 paginate: true
 ---
+
 <!-- Scoped style -->
 <style scoped>
 h1 {
@@ -16,6 +17,7 @@ h1 {
 # Blue text (only in the current slide page)
 
 ---
+
 <!-- Scoped style -->
 <style scoped>
 h1 {
