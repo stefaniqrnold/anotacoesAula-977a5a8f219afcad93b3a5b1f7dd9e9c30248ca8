@@ -9,6 +9,25 @@
   font-family: Inter, Helvetica, Arial;
 }
 
+section {  padding: 100px;
+}
+
+header,
+footer {
+  position: absolute;
+  left: 50px;
+  right: 50px;
+  height: 20px;
+}
+
+header {
+  top: 40px;
+}
+
+footer {
+  bottom: 45px;
+}
+
 section {
   background-color: #ffffff;
   background-image: linear-gradient(to top right, #e1c2e1 5%, #b9d5d9 95%);
@@ -42,7 +61,7 @@ pre {
 
 /* https://github.com/yhatt/marp/issues/263 */
 section::after {
-  font-size: 0.75em;
+  font-size: 0.85em;
   content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
 }
 
