@@ -1,39 +1,9 @@
----
-# configurações do marp
-marp: true
-theme: gradient
-class:  
-- blue # classe azul do tema
-- lead # centralizar
-
-paginate: true 
-
-title: Gerência de I/O no Linux - Kernel 6
-
-# canto dos slides
-header: 'Kernel 6 - Linux'
-
-
----
-<!-- Scoped style -->
-<style scoped>
-h1 {
-  color: blue;
-}
-</style>
-
-Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O grupo não precisa ficar restrito a versão específica do SO escolhido. Ex: se não encontrou informações sobre Linux 2.6, pode ver em versões >=3 o < 2
-  
----
-
 # **Gerência de I/O no Linux - Kernel 6**
-## Sistemas Operacionais - Engenharia de Software e Ciência da Computação
-### **Stéfani Arnold e Nicolas Hass**
-### `Módulo 02/2024`
+### Sistemas Operacionais - Engenharia de Software
 
 ---
 
-# Introdução e Definição
+## **Introdução e Definição**
 - **Gerência de I/O no Linux:**
   - Responsável pela comunicação entre software e dispositivos de entrada/saída.
   - Garantir desempenho, eficiência e suporte a diversos dispositivos.
@@ -42,8 +12,8 @@ Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O
   - Última versão do Linux, trazendo **otimizações em I/O**, como suporte a novos dispositivos e aprimoramento no escalonamento.
 
 ---
-     
-# Classes de dispositivos suportados
+
+## **Classes de Dispositivos Suportados**
 1. **Orientados a Bloco:**
    - Processam dados em blocos (ex.: discos rígidos, SSDs).
    - Operações otimizadas para leitura e gravação.
@@ -57,10 +27,8 @@ Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O
 
 ---
 
-# Interação entre kernel e driver
-
+## **Interação entre Kernel e Driver**
 ### Estratégias de Comunicação:
-
 1. **Controlada por Programa:**
    - O software controla diretamente os dispositivos.
    - Exemplo: transferências síncronas.
@@ -75,8 +43,7 @@ Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O
 
 ---
 
-### Escalonamento de E/S: 
-
+## **Escalonamento de E/S**
 - **O que é?**
   - Técnica para organizar e priorizar requisições de dispositivos.
   
@@ -87,7 +54,7 @@ Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O
 
 ---
 
-### Limite de dispositivos suportados
+## **Limite de Dispositivos Suportados**
 - **Por que existem limites?**
   - Gestão de recursos do kernel.
   - Evita sobrecarga em sistemas de alto desempenho.
@@ -97,7 +64,7 @@ Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O
 
 ---
 
-### Diferenciais ecuriosidades 
+## **Diferenciais e Curiosidades**
 1. **Melhorias no Kernel 6:**
    - Novo suporte para dispositivos NVMe.
    - Redução de latência em sistemas com alta carga de I/O.
@@ -122,18 +89,13 @@ Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O
 
 ---
 
-### **Referências**
-
-- [Gerenciamento de Processos no Linux: do nascimento ao encerramento](https://sempreupdate.com.br/linux/gerenciamento-de-processos-no-linux-do-nascimento-ao-encerramento/)
+## **Referências**
+- **Artigos e Sites:**
+  - [Gerenciamento de Processos no Linux: do nascimento ao encerramento](https://sempreupdate.com.br/linux/gerenciamento-de-processos-no-linux-do-nascimento-ao-encerramento/)
   - [Gerenciamento de Processos no Linux - Prioridade e NICE](https://linuxsemfronteiras.com.br/gerenciamento-de-processos-no-linux/)
   - [Sistemas operacionais/Gerência de dispositivos de entrada e saída](https://pt.wikibooks.org/wiki/Sistemas_operacionais/Ger%C3%AAncia_de_dispositivos_de_entrada_e_sa%C3%ADda)
   - [Linux Kernel 6.7 Unveiled: A Comprehensive Look at New Features and Enhancements](https://www.youtube.com/watch?v=Ece_xtPh470)
 
 ---
 
-# `Perguntas?`
-
-stefani.camargo@sou.unijui.edu.br
-
-
-
+# Perguntas?
