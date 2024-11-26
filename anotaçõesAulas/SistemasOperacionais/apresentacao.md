@@ -9,21 +9,13 @@ class:
 paginate: true 
 
 title: Gerência de I/O no Linux - Kernel 6
+description: slides para apresentação no dia 26/11/24 para a materia de Sistemas Operacionais
+author: Stéfani Arnold
+keywords: linux, kernel 6, I/O
 
 # canto dos slides
 header: 'Kernel 6 - Linux'
 
-
----
-<!-- Scoped style -->
-<style scoped>
-h1 {
-  color: blue;
-}
-</style>
-
-Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O grupo não precisa ficar restrito a versão específica do SO escolhido. Ex: se não encontrou informações sobre Linux 2.6, pode ver em versões >=3 o < 2
-  
 ---
 
 # **Gerência de I/O no Linux - Kernel 6**
@@ -33,7 +25,7 @@ Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O
 
 ---
 
-# Introdução e Definição
+## Introdução e Definição
 - **Gerência de I/O no Linux:**
   - Responsável pela comunicação entre software e dispositivos de entrada/saída.
   - Garantir desempenho, eficiência e suporte a diversos dispositivos.
@@ -43,7 +35,7 @@ Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O
 
 ---
      
-# Classes de dispositivos suportados
+### Classes de dispositivos suportados
 1. **Orientados a Bloco:**
    - Processam dados em blocos (ex.: discos rígidos, SSDs).
    - Operações otimizadas para leitura e gravação.
@@ -57,7 +49,7 @@ Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O
 
 ---
 
-# Interação entre kernel e driver
+## Interação entre kernel e driver
 
 ### Estratégias de Comunicação:
 
@@ -69,13 +61,19 @@ Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O
    - O hardware gera interrupções tratadas pelo kernel.
    - Exemplo: teclas pressionadas ou dados recebidos.
 
+---
+
+## Interação entre kernel e driver
+
+### Estratégias de Comunicação:
+
 3. **DMA (Direct Memory Access):**
    - Transferência direta entre dispositivo e memória.
    - Reduz carga da CPU, ideal para discos e redes.
 
 ---
 
-### Escalonamento de E/S: 
+## Escalonamento de E/S: 
 
 - **O que é?**
   - Técnica para organizar e priorizar requisições de dispositivos.
@@ -87,7 +85,7 @@ Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O
 
 ---
 
-### Limite de dispositivos suportados
+## Limite de dispositivos suportados
 - **Por que existem limites?**
   - Gestão de recursos do kernel.
   - Evita sobrecarga em sistemas de alto desempenho.
@@ -97,7 +95,7 @@ Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O
 
 ---
 
-### Diferenciais ecuriosidades 
+## Diferenciais e curiosidades 
 1. **Melhorias no Kernel 6:**
    - Novo suporte para dispositivos NVMe.
    - Redução de latência em sistemas com alta carga de I/O.
@@ -108,31 +106,37 @@ Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O
 
 ---
 
-## **Vantagens da Gerência de I/O no Linux**
-- Suporte a uma vasta gama de dispositivos.
-- Arquitetura modular para drivers.
-- Eficiência em sistemas embarcados e servidores de alta performance.
+## Vantagens da Gerência de I/O no Linux
+- **Suporte a uma vasta gama de dispositivos.**
+- **Arquitetura modular para drivers.**
+- **Eficiência em sistemas embarcados e servidores de alta performance.**
 
 ---
 
-## **Desafios Atuais**
+## Desafios Atuais
 - Gerenciar a complexidade de novos dispositivos (ex.: GPUs modernas).
 - Garantir segurança e isolamento entre processos em operações de E/S.
 - Otimizar operações para dispositivos NVMe e redes de alta velocidade.
 
 ---
 
-### **Referências**
+## Referências
+- GARRELS, M. The Linux Documentation Project. Disponível em: <https://tldp.org/>. Acesso em: 24 nov. 2024.
 
-- [Gerenciamento de Processos no Linux: do nascimento ao encerramento](https://sempreupdate.com.br/linux/gerenciamento-de-processos-no-linux-do-nascimento-ao-encerramento/)
-  - [Gerenciamento de Processos no Linux - Prioridade e NICE](https://linuxsemfronteiras.com.br/gerenciamento-de-processos-no-linux/)
-  - [Sistemas operacionais/Gerência de dispositivos de entrada e saída](https://pt.wikibooks.org/wiki/Sistemas_operacionais/Ger%C3%AAncia_de_dispositivos_de_entrada_e_sa%C3%ADda)
-  - [Linux Kernel 6.7 Unveiled: A Comprehensive Look at New Features and Enhancements](https://www.youtube.com/watch?v=Ece_xtPh470)
+- LINUX NETWORK. Linux kernel 6.7 unveiled: A comprehensive look at new features and enhancements. Disponível em: <https://www.youtube.com/watch?v=Ece_xtPh470>. Acesso em: 26 nov. 2024.
 
 ---
 
-# `Perguntas?`
+## Referências
+- Man7.org (Michael kerrisk) Linux/UNIX programming training. Disponível em: <https://man7.org/training/>. Acesso em: 26 nov. 2024.
 
+- The Linux Kernel documentation — The Linux Kernel documentation. Disponível em: <https://www.kernel.org/doc/html/latest/index.html>. Acesso em: 26 nov. 2024.
+
+---
+
+# Perguntas?
+
+nicolas.soares@sou.unijui.edu.br
 stefani.camargo@sou.unijui.edu.br
 
 

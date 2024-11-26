@@ -1,6 +1,14 @@
 # **Gerência de I/O no Linux - Kernel 6**
 ### Sistemas Operacionais - Engenharia de Software
+<!-- Scoped style -->
+<style scoped>
+h1 {
+  color: blue;
+}
+</style>
 
+Obs: o tema de gerência de I/O pode ser mais restrito em termos de conteúdo. O grupo não precisa ficar restrito a versão específica do SO escolhido. Ex: se não encontrou informações sobre Linux 2.6, pode ver em versões >=3 o < 2
+  
 ---
 
 ## **Introdução e Definição**
