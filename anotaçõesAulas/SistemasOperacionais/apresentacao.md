@@ -100,7 +100,6 @@ header: 'Kernel 6 - Linux'
 **Kernel Linux e supercomputadores:**
     O Linux é realmente amplamente utilizado em supercomputadores. De acordo com dados recentes, o Linux está presente em quase todos os supercomputadores mais poderosos do mundo. Em 2017, por exemplo, 99,6% dos supercomputadores listados na Top500.org estavam rodando Linux. (https://top500.org/)
 
-
 ---
 
 ## Vantagens da Gerência de I/O no Linux
@@ -115,13 +114,6 @@ header: 'Kernel 6 - Linux'
 
 - **Eficiência em sistemas embarcados e servidores de alta performance:**
   - Otimizações específicas para diferentes cenários de uso, garantindo desempenho e estabilidade.
-
----
-
-## Desafios Atuais
-- Gerenciar a complexidade de novos dispositivos (ex.: GPUs modernas).
-- Garantir segurança e isolamento entre processos em operações de E/S.
-- Otimizar operações para dispositivos NVMe e redes de alta velocidade.
 
 ---
 
