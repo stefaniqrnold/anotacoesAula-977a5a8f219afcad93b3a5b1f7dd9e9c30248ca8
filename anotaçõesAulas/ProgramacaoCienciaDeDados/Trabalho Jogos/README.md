@@ -1,6 +1,3 @@
-### README 
-
-```markdown
 # Análise da Duração de Jogos 🎮  
 
 Este repositório contém o projeto desenvolvido para a disciplina de **Programação para Ciência de Dados**, no curso de Engenharia de Software. O trabalho explora técnicas de ciência de dados aplicadas ao estudo da duração de jogos, utilizando Python 3 e ferramentas complementares.
@@ -36,4 +33,3 @@ Para dúvidas ou sugestões, entre em contato:
 
 ## Agradecimentos  
 Agradecemos aos professores e colegas pelo suporte e orientações ao longo do desenvolvimento deste trabalho.  
-```
