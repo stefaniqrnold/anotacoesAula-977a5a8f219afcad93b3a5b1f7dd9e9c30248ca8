@@ -48,7 +48,7 @@ header: 'Aplicação de Técnicas de Ciência de Dados'
 ## Manipulação de banco de dados
 - Organizar e recuperar dados de maneira eficiente. 
 - Dados organizados em json, pré-extraidos de uma base.
-
+- Data scraping no site https://howlongtobeat.com/
 ---
 ## Análise e visualização de dados
 - Análise foi realizada explorando dados coletados sobre a duração de jogos, avaliando correlações com variáveis como gênero, número de vendas e avaliações. 
