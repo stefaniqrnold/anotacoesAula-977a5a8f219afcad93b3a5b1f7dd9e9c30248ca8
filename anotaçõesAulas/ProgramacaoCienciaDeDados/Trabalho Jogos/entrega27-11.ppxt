@@ -23,7 +23,7 @@
 
 /* || SECTION CLASS: tinytext */
 /* new class that makes p, ul, and blockquote text smaller */
-/* might be useful for the References slide, use <!-- _class: tinytext --> */div#\:\$p>svg>foreignObject>section.tinytext>blockquote,div#\:\$p>svg>foreignObject>section.tinytext>p,div#\:\$p>svg>foreignObject>section.tinytext>ul{font-size:0.65em}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]{columns:initial!important;display:block!important;padding:0!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]:after,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]:before,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content]:after,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content]:before{display:none!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]{all:initial;display:flex;flex-direction:row;height:100%;overflow:hidden;width:100%}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container][data-marpit-advanced-background-direction=vertical]{flex-direction:column}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split]>div[data-marpit-advanced-background-container]{width:var(--marpit-advanced-background-split,50%)}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split=right]>div[data-marpit-advanced-background-container]{margin-left:calc(100% - var(--marpit-advanced-background-split, 50%))}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure{all:initial;background-position:center;background-repeat:no-repeat;background-size:cover;flex:auto;margin:0}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure>figcaption{position:absolute;border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;white-space:nowrap;width:1px}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content],div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=pseudo]{background:transparent!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=pseudo],div#\:\$p>svg[data-marpit-svg]>foreignObject[data-marpit-advanced-background=pseudo]{pointer-events:none!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background-split]{width:100%;height:100%}</style></head><body><div class="bespoke-marp-osc"><button data-bespoke-marp-osc="prev" tabindex="-1" title="Previous slide">Previous slide</button><span data-bespoke-marp-osc="page"></span><button data-bespoke-marp-osc="next" tabindex="-1" title="Next slide">Next slide</button><button data-bespoke-marp-osc="fullscreen" tabindex="-1" title="Toggle fullscreen (f)">Toggle fullscreen</button><button data-bespoke-marp-osc="presenter" tabindex="-1" title="Open presenter view (p)">Open presenter view</button></div><div id=":$p"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="1" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="1" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="10">
+/* might be useful for the References slide, use <!-- _class: tinytext --> */div#\:\$p>svg>foreignObject>section.tinytext>blockquote,div#\:\$p>svg>foreignObject>section.tinytext>p,div#\:\$p>svg>foreignObject>section.tinytext>ul{font-size:0.65em}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]{columns:initial!important;display:block!important;padding:0!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]:after,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]:before,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content]:after,div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content]:before{display:none!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]{all:initial;display:flex;flex-direction:row;height:100%;overflow:hidden;width:100%}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container][data-marpit-advanced-background-direction=vertical]{flex-direction:column}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split]>div[data-marpit-advanced-background-container]{width:var(--marpit-advanced-background-split,50%)}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split=right]>div[data-marpit-advanced-background-container]{margin-left:calc(100% - var(--marpit-advanced-background-split, 50%))}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure{all:initial;background-position:center;background-repeat:no-repeat;background-size:cover;flex:auto;margin:0}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure>figcaption{position:absolute;border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;white-space:nowrap;width:1px}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=content],div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=pseudo]{background:transparent!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background=pseudo],div#\:\$p>svg[data-marpit-svg]>foreignObject[data-marpit-advanced-background=pseudo]{pointer-events:none!important}div#\:\$p>svg>foreignObject>section[data-marpit-advanced-background-split]{width:100%;height:100%}</style></head><body><div class="bespoke-marp-osc"><button data-bespoke-marp-osc="prev" tabindex="-1" title="Previous slide">Previous slide</button><span data-bespoke-marp-osc="page"></span><button data-bespoke-marp-osc="next" tabindex="-1" title="Next slide">Next slide</button><button data-bespoke-marp-osc="fullscreen" tabindex="-1" title="Toggle fullscreen (f)">Toggle fullscreen</button><button data-bespoke-marp-osc="presenter" tabindex="-1" title="Open presenter view (p)">Open presenter view</button></div><div id=":$p"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="1" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="1" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="11">
 <header>Aplicação de Técnicas de Ciência de Dados</header>
 
 <h1 id="aplica%C3%A7%C3%A3o-de-t%C3%A9cnicas-de-ci%C3%AAncia-de-dados"><strong>Aplicação de Técnicas de Ciência de Dados</strong></h1>
@@ -31,7 +31,21 @@
 <h3 id="st%C3%A9fani-arnold-e-nicolas-hass"><strong>Stéfani Arnold e Nicolas Hass</strong></h3>
 <h3 id="m%C3%B3dulo-022024"><code>Módulo 02/2024</code></h3>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="2" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="10">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="2" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="11">
+<header>Aplicação de Técnicas de Ciência de Dados</header>
+<h2 id="objetivos">Objetivos</h2>
+<ul>
+<li>Implementar uma análise de dados com foco em jogos eletrônicos:
+<ul>
+<li>Notas de usuários, data de lançamento... em plataformas públicas</li>
+<li>Estimar as tendências do mercado de games.</li>
+</ul>
+</li>
+<li>Consolidar o aprendizado em Python 3, versionamento, manipulação de arquivos e banco de dados.</li>
+<li>Utilizar técnicas de visualização e modelagem para compreender os dados de forma prática.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="3" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="11">
 <header>Aplicação de Técnicas de Ciência de Dados</header>
 <h2 id="python3">Python3</h2>
 <ul>
@@ -39,15 +53,16 @@
 <li>Sua versatilidade e uma vasta coleção de bibliotecas permitem abordar todas as etapas da análise, desde a manipulação até a visualização de dados.</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="3" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="10">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="4" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="11">
 <header>Aplicação de Técnicas de Ciência de Dados</header>
 <h2 id="versionamento-gitgithub">Versionamento (Git/GitHub)</h2>
 <ul>
 <li>Git e GitHub auxiliam na organização e no versionamento.</li>
 <li>Com ambos, foi possível rastrear mudanças no código e corrigir erros de maneira segura.</li>
+<li><a href="https://github.com/NicolauHS/trabalho-dados">https://github.com/NicolauHS/trabalho-dados</a></li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="4" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="10">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="5" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="11">
 <header>Aplicação de Técnicas de Ciência de Dados</header>
 <h2 id="manipula%C3%A7%C3%A3o-de-arquivos">Manipulação de Arquivos</h2>
 <ul>
@@ -56,7 +71,7 @@
 <li>Essa abordagem garantiu acesso a dados atualizados e relevantes.</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="5" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="10">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="6" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="11">
 <header>Aplicação de Técnicas de Ciência de Dados</header>
 <h2 id="orienta%C3%A7%C3%A3o-a-objetos">Orientação a Objetos</h2>
 <ul>
@@ -65,7 +80,7 @@
 <li>Métodos foram implementados para calcular estatísticas ou converter dados entre formatos, promovendo a reutilização e a clareza do código.</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="6" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="10">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="7" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="11">
 <header>Aplicação de Técnicas de Ciência de Dados</header>
 <h2 id="manipula%C3%A7%C3%A3o-de-banco-de-dados">Manipulação de banco de dados</h2>
 <ul>
@@ -74,7 +89,7 @@
 <li>Data scraping no site <a href="https://howlongtobeat.com/">https://howlongtobeat.com/</a></li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="7" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="10">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="8" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="11">
 <header>Aplicação de Técnicas de Ciência de Dados</header>
 <h2 id="an%C3%A1lise-e-visualiza%C3%A7%C3%A3o-de-dados">Análise e visualização de dados</h2>
 <ul>
@@ -82,7 +97,7 @@
 <li>Ferramentas como Seaborn e Matplotlib foram empregadas para criar gráficos intuitivos, permitindo a visualização de tendências.</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="8" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="10">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="9" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="11">
 <header>Aplicação de Técnicas de Ciência de Dados</header>
 <h2 id="t%C3%A9cnicas-de-manipula%C3%A7%C3%A3o-de-dados">Técnicas de Manipulação de dados</h2>
 <ul>
@@ -92,7 +107,7 @@
 <li><strong>Modelagem</strong>: Os dados finais foram organizados em estruturas otimizadas para análise, como graficos, tabelas normalizadas e subconjuntos.</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="9" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="10">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="10" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="11">
 <header>Aplicação de Técnicas de Ciência de Dados</header>
 <h2 id="conclus%C3%A3o">Conclusão</h2>
 <ul>
@@ -102,10 +117,11 @@
 <li>O projeto proporcionou uma visão e experiência prática das etapas envolvidas em um ciclo completo de ciência de dados: da coleta à apresentação dos resultados.</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="10" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="10">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-class="blue lead" data-paginate="true" data-header="Aplicação de Técnicas de Ciência de Dados" data-theme="gradient" lang="en-US" class="blue lead" data-marpit-pagination="11" style="--class:blue lead;--paginate:true;--header:Aplicação de Técnicas de Ciência de Dados;--theme:gradient;" data-marpit-pagination-total="11">
 <header>Aplicação de Técnicas de Ciência de Dados</header>
 <h1 id="obrigado-pela-aten%C3%A7%C3%A3o">Obrigado Pela Atenção!</h1>
-<h2 id="perguntas"><strong>Perguntas?</strong></h2>
+<h2 id="bora-ver-o-c%C3%B3digo----">-&gt; -&gt; Bora ver o código -&gt; -&gt;</h2>
+<h3 id="perguntas"><strong>Perguntas?</strong></h3>
 <p><a href="mailto:nicolas.soares@sou.unijui.edu.br">nicolas.soares@sou.unijui.edu.br</a><br />
 <a href="mailto:stefani.camargo@sou.unijui.edu.br">stefani.camargo@sou.unijui.edu.br</a></p>
 </section>
