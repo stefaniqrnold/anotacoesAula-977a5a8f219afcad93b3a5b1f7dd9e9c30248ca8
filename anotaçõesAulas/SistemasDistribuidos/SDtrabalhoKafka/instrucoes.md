@@ -1,7 +1,6 @@
 # Apache Kafka e Trabalho em Sistemas Distribuídos
 
-## Autora: Stéfani Gabriele Arnold de Camargo
-##
+## Stéfani Gabriele Arnold de Camargo
 
 **Sistema Operacional:** Fedora  
 As instruções foram adaptadas para o uso do Fedora, utilizando o gerenciador de pacotes `dnf` e ferramentas compatíveis.
